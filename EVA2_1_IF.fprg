@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="irism"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-02 07:39:55 p. m."/>
+        <attribute name="created" value="aXJpc207TEFQVE9QTUFSSUFOQTsyMDIzLTEwLTAyOzA3OjE1OjI3IHAuIG0uOzI5ODE="/>
+        <attribute name="edited" value="aXJpc207TEFQVE9QTUFSSUFOQTsyMDIzLTEwLTAyOzA3OjM5OjU1IHAuIG0uOzI7MzA5Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="califa" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce la calificaci&#243;n: &quot;" newline="True"/>
+            <input variable="califa"/>
+            <if expression="califa &gt;= 70">
+                <then>
+                    <output expression="&quot;Aprobaste, eres pro&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;NA&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Gracias por participar&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

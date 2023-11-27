@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="irism"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 07:25:38 p. m."/>
+        <attribute name="created" value="aXJpc207TEFQVE9QTUFSSUFOQTsyMDIzLTEwLTA5OzA3OjA5OjAwIHAuIG0uOzI5ODI="/>
+        <attribute name="edited" value="aXJpc207TEFQVE9QTUFSSUFOQTsyMDIzLTEwLTA5OzA3OjI1OjM4IHAuIG0uOzI7MzEwMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor1" type="Integer" array="False" size=""/>
+            <declare name="valor2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce el valor 1&quot;" newline="True"/>
+            <input variable="valor1"/>
+            <output expression="&quot;Introduce el valor 2&quot;" newline="True"/>
+            <input variable="valor2"/>
+            <if expression="valor1&gt;valor2">
+                <then>
+                    <output expression="&quot;El valor m&#225;s grande es &quot;" newline="True"/>
+                    <output expression="valor1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="valor1 = valor2">
+                        <then>
+                            <output expression="valor1" newline="False"/>
+                            <output expression="&quot; es igual que &quot;" newline="False"/>
+                            <output expression="valor2" newline="False"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;El valor m&#225;s peque&#241;o es &quot;" newline="True"/>
+                            <output expression="valor1" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
